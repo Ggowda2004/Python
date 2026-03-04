@@ -32,7 +32,7 @@ list2.append(4) #adds element at the end
 list2.insert(1,5) #inserts 1 at position 5
 list2.pop()#remove last element and returns it
 list2.remove(1) #removes first occurence of 1, raises ValueError if not found
-
+# to remove element at a specific index we can use pop(index) or del list2[index]
 list2.extend([6,7,8]) #extends list by appending elements at the end or merge 2 lists
 list2.sort() #sorts the list in ascending order inplace**
 list2.sort(reverse=True) #sorts the list in descending order inplace**
